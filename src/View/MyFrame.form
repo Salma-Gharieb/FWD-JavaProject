@@ -21,7 +21,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadFileMenuItemActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="loadFileMenuItem.setActionCommand(&quot;load&quot;);&#xa;loadFileMenuItem.addActionListener(this);&#xa;    "/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="loadFileMenuItem.setActionCommand(&quot;load&quot;);&#xa;loadFileMenuItem.addActionListener(listener);&#xa;    "/>
               </AuxValues>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="saveFileMenuItem">
@@ -33,7 +33,7 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="saveFileMenuItem.setActionCommand(&quot;save&quot;);&#xa;saveFileMenuItem.addActionListener(this);"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="saveFileMenuItem.setActionCommand(&quot;save&quot;);&#xa;saveFileMenuItem.addActionListener(listener);"/>
               </AuxValues>
             </MenuItem>
           </SubComponents>
@@ -145,7 +145,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CreateNewInvoiceActionPerformed"/>
           </Events>
           <AuxValues>
-            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="CreateNewInvoice.setActionCommand(&quot;newInv&quot;);&#xa;CreateNewInvoice.addActionListener(this);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="CreateNewInvoice.setActionCommand(&quot;newInv&quot;);&#xa;CreateNewInvoice.addActionListener(listener);"/>
           </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="DeleteInvoice">
@@ -153,7 +153,7 @@
             <Property name="text" type="java.lang.String" value="Delete Invoice"/>
           </Properties>
           <AuxValues>
-            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="DeleteInvoice.setActionCommand(&quot;delInv&quot;);&#xa;DeleteInvoice.addActionListener(this);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="DeleteInvoice.setActionCommand(&quot;delInv&quot;);&#xa;DeleteInvoice.addActionListener(listener);"/>
           </AuxValues>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -175,7 +175,7 @@
                 </Property>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="HeaderTable.getSelectionModel().addListSelectionListener(this);&#xd;&#xa;&#xd;&#xa;"/>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="HeaderTable.getSelectionModel().addListSelectionListener(listener);&#xd;&#xa;&#xd;&#xa;"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -346,7 +346,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CreateNewItemActionPerformed"/>
           </Events>
           <AuxValues>
-            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="CreateNewItem.setActionCommand(&quot;newItem&quot;);&#xa;CreateNewItem.addActionListener(this);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="CreateNewItem.setActionCommand(&quot;newItem&quot;);&#xa;CreateNewItem.addActionListener(listener);"/>
           </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="DeleteItem">
@@ -357,7 +357,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeleteItemActionPerformed"/>
           </Events>
           <AuxValues>
-            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="DeleteItem.setActionCommand(&quot;delItem&quot;);&#xa;DeleteItem.addActionListener(this);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="DeleteItem.setActionCommand(&quot;delItem&quot;);&#xa;DeleteItem.addActionListener(listener);"/>
           </AuxValues>
         </Component>
       </SubComponents>

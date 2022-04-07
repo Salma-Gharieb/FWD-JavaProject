@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/java/ProjectGUI/src/Model/InvoiceLine.java</file>
-            <file>file:/E:/java/ProjectGUI/src/Model/HeaderTableModel.java</file>
-            <file>file:/E:/java/ProjectGUI/src/Model/InvoiceLineTableModel.java</file>
-            <file>file:/E:/java/ProjectGUI/src/View/MyFrame.java</file>
-            <file>file:/E:/java/ProjectGUI/src/Model/InvoiceHeader.java</file>
+            <file>file:/E:/java/FWD-JavaProject/src/View/MyFrame.java</file>
+            <file>file:/E:/java/FWD-JavaProject/src/Controller/SalesInvoiceListener.java</file>
         </group>
     </open-files>
 </project-private>
